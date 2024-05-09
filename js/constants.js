@@ -27,5 +27,5 @@ const SHAPE_T = 'T';
 const SHAPE_L = 'L';
 const SHAPE_SKEW = 'skew';
 
-const CELL_WIDTH = 40;
-const SHAPE_SPEED = 5;
+const CELL_WIDTH = 30;
+const SHAPE_SPEED = 1;

@@ -58,7 +58,9 @@ class Shape {
     }
 
     update() {
-
+        for (let cellPos of this.cellPositions) {
+            cellPos.add(this.velocity);
+        }
     }
 
     rotateBy90Degrees() {
