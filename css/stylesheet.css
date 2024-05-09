@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    --text-color: white;
+    --background-color: rgb(50, 50, 50);
+    --canvas-backcolor: rgb(70, 70, 70);
+    --header-color: rgb(250, 250, 250);
+    --para-color: rgb(120, 200, 240);
+    --btn-backcolor: #2d394b;
+    --btn-backcolor-disabled: rgb(180, 180, 180);
+    --btn-forecolor: white;
+    --btn-hover-forecolor: #40e0d0;
+    --game-states-header-color: rgb(80, 140, 240);
+}
+
+canvas {
+    background-color: var(--canvas-backcolor);
+}
