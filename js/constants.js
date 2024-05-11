@@ -21,11 +21,37 @@ const BROWNLIGHT = 'rgb(230, 115, 0)';
 const TURQUOISE = 'rgb(32, 114, 106)';
 const TURQUOISELIGHT = 'rgb(50, 180, 166)';
 
+const FRAME_COLOR = GRAY1;
+
+// Shapes
 const SHAPE_LINE = 'line';
 const SHAPE_SQUARE = 'square';
 const SHAPE_T = 'T';
 const SHAPE_L = 'L';
 const SHAPE_SKEW = 'skew';
 
-const CELL_WIDTH = 30;
+const SHAPE_TYPES = [
+    SHAPE_LINE,
+    SHAPE_SQUARE,
+    SHAPE_T,
+    SHAPE_L,
+    SHAPE_SKEW
+]
+
+// Board
+const BOARD_POS_X = window.innerWidth / 3;
+const BOARD_POS_Y = 100;
+const BOARD_ROWS = 20;
+const BOARD_COLS = 10;
+
+const BLOCK_WIDTH = 30;
 const SHAPE_SPEED = 1;
+
+const BLOCK_NUMS_TO_COLORS = {
+    1: FRAME_COLOR,
+    2: BLUE,
+    3: AQUA,
+    4: RED,
+    5: PURPLE,
+    6: YELLOW
+}
